@@ -1,27 +1,41 @@
 # Security Challenges with Solidity Smart Contracts
 
-Blockchain intro blabla <- TODO
+Ethereum is a blockchain protocol that introduced smart contracts into the blockchain world. Smart Contracts are contracts but written by a developer using the Solidity programming language. Once the smart contract has been written on the blockchain using a transaction it becomes immutable and cannot be further modified.
+
+But as every IT program, Smart Contracts have flaws which can be use by hackers in order to hack a contract and change their behaviour.
 
 ## Table of content
-* [Step 0 - Setup]()
-* [Step 1 - Easy level]()
-    * [Hello Ethernaut]()
-    * [Fallback]()
-    * [Coin Flip]()
-* [Step 2 - Medium Level]()
-    * [Gatekeeper One]()
-    * [Force]()
-    * [Vault]()
-* [Step 3 - Hard level]()
-    * [The rewarder]()
-    * [Compromised]()
-    * [Selfie]()
+* [Step 0 - Setup](./README.md#step-0---setup)
+* [Step 1 - Easy level](./README.md#step-1---easy-level)
+    * [Hello Ethernaut](./README.md#1.0-hello-ethernaut)
+    * [Fallback](./README.md#1.1-fallback)
+    * [Coin Flip](./README.md#1.2-coin-flip)
+* [Step 2 - Medium Level](./README.md#step-2---medium-level)
+    * [Gatekeeper One](./README.md#2.0-gatekeeper-one)
+    * [Force](./README.md#2.1-force)
+    * [Vault](./README.md#2.2-vault)
+* [Step 3 - Hard level](./README.md#step-3---hard-level)
+    * [The rewarder](./README.md#the-rewarder)
+    * [Compromised](./README.md#compromised)
+    * [Selfie](./README.md#selfie)
+* [Going Further](./README.md#going-further)
 
 ## Step 0 - Setup
 
 First, you have to download [MetaMask Plugin](https://metamask.io/download.html), and create an ethereum account.
 Then, you can claim some Rinkeby faucet [here](https://www.rinkeby.io/#faucet).
 You will use it to solve the following challenges, but it does not have a real value ; it is often use for testing purposes.
+
+Finally, You can use the code editor of your choice, but we highly recommend using the online Remix Editor available [here](https://remix.ethereum.org/).
+In the `Solidity compiler` tab :
+
+* Set the compiler version to `0.8.5`
+* Select the `auto-compile` checkbox.
+
+In the `Deploy & run` transactions :
+
+* The environment refers to the ethereum network you're using. JavaScript VM means that the code will execute on a local network
+Injected Web3 will use metamask to connect to the real Ethereum network.
 
 ## Step 1 - Easy Level
 
@@ -65,3 +79,7 @@ Thoses challenges will help you understand how bigger contracts and flashloan wo
 ### 3.1 [Compromised](https://www.damnvulnerabledefi.xyz/challenges/6.html)
 
 ### 3.2 [Selfie](https://www.damnvulnerabledefi.xyz/challenges/7.html)
+
+## Going Further
+
+You can keep the websites given for the differents challenges and do some other ones !
